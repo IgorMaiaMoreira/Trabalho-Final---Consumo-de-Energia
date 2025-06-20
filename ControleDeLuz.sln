@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeLuz", "ControleDeLuz.csproj", "{D3EA3293-5D56-470C-9759-B265C3219163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3EA3293-5D56-470C-9759-B265C3219163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EA3293-5D56-470C-9759-B265C3219163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EA3293-5D56-470C-9759-B265C3219163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EA3293-5D56-470C-9759-B265C3219163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC5B8C88-64D1-4C25-AA04-46A2329A2769}
+	EndGlobalSection
+EndGlobal
