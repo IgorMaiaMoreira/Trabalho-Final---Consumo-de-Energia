@@ -30,8 +30,8 @@
         {
             label1 = new Label();
             groupBox1 = new GroupBox();
-            radioButton1 = new RadioButton();
             radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
             textBox1 = new TextBox();
             maskedTextBox1 = new MaskedTextBox();
             label2 = new Label();
@@ -62,18 +62,6 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Tipo de Consumidor:";
             // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton1.Location = new Point(200, 51);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(117, 25);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Pessoa Física";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
             // radioButton2
             // 
             radioButton2.AutoSize = true;
@@ -85,6 +73,18 @@
             radioButton2.TabStop = true;
             radioButton2.Text = "Pessoa Jurídica";
             radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton1.Location = new Point(200, 51);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(117, 25);
+            radioButton1.TabIndex = 0;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Pessoa Física";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -122,7 +122,7 @@
             // 
             // btnSalvarConsumidor
             // 
-            btnSalvarConsumidor.Location = new Point(284, 420);
+            btnSalvarConsumidor.Location = new Point(284, 399);
             btnSalvarConsumidor.Name = "btnSalvarConsumidor";
             btnSalvarConsumidor.Size = new Size(84, 39);
             btnSalvarConsumidor.TabIndex = 6;
@@ -131,7 +131,7 @@
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(420, 420);
+            btnCancelar.Location = new Point(420, 399);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(83, 39);
             btnCancelar.TabIndex = 7;
@@ -151,7 +151,8 @@
             Controls.Add(groupBox1);
             Controls.Add(label1);
             Name = "CadastrarConsumidorControl";
-            Size = new Size(816, 489);
+            Size = new Size(800, 450);
+            Load += CadastrarConsumidorControl_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

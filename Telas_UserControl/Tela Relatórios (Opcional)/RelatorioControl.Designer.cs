@@ -30,21 +30,21 @@
         {
             label1 = new Label();
             grpFiltro = new GroupBox();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton3 = new RadioButton();
-            label2 = new Label();
             label3 = new Label();
-            label4 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            dateTimePicker2 = new DateTimePicker();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            textBox1 = new TextBox();
-            label8 = new Label();
-            btnGerarRelatorio = new Button();
             btnLimparFiltro = new Button();
+            btnGerarRelatorio = new Button();
+            label8 = new Label();
+            textBox1 = new TextBox();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            dateTimePicker2 = new DateTimePicker();
+            dateTimePicker1 = new DateTimePicker();
+            label4 = new Label();
+            label2 = new Label();
+            radioButton3 = new RadioButton();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
             grpRelatorio = new GroupBox();
             dataGridView1 = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
@@ -52,6 +52,7 @@
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
             Column5 = new DataGridViewTextBoxColumn();
+            btnVoltar_Relatorio = new Button();
             grpFiltro.SuspendLayout();
             grpRelatorio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -91,27 +92,109 @@
             grpFiltro.TabStop = false;
             grpFiltro.Text = "Filtro: ";
             // 
-            // radioButton1
+            // label3
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(120, 29);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(55, 19);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Todas";
-            radioButton1.UseVisualStyleBackColor = true;
+            label3.AutoSize = true;
+            label3.Location = new Point(-7, 51);
+            label3.Name = "label3";
+            label3.Size = new Size(727, 15);
+            label3.TabIndex = 4;
+            label3.Text = "________________________________________________________________________________________________________________________________________________";
             // 
-            // radioButton2
+            // btnLimparFiltro
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(308, 29);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(84, 19);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Residencial";
-            radioButton2.UseVisualStyleBackColor = true;
+            btnLimparFiltro.Location = new Point(393, 164);
+            btnLimparFiltro.Name = "btnLimparFiltro";
+            btnLimparFiltro.Size = new Size(107, 23);
+            btnLimparFiltro.TabIndex = 13;
+            btnLimparFiltro.Text = "Limpar Filtro";
+            btnLimparFiltro.UseVisualStyleBackColor = true;
+            // 
+            // btnGerarRelatorio
+            // 
+            btnGerarRelatorio.Location = new Point(200, 164);
+            btnGerarRelatorio.Name = "btnGerarRelatorio";
+            btnGerarRelatorio.Size = new Size(107, 23);
+            btnGerarRelatorio.TabIndex = 12;
+            btnGerarRelatorio.Text = "Gerar Relatório";
+            btnGerarRelatorio.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(-1, 146);
+            label8.Name = "label8";
+            label8.Size = new Size(727, 15);
+            label8.TabIndex = 11;
+            label8.Text = "________________________________________________________________________________________________________________________________________________";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(141, 120);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(166, 23);
+            textBox1.TabIndex = 10;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(0, 117);
+            label7.Name = "label7";
+            label7.Size = new Size(129, 15);
+            label7.TabIndex = 9;
+            label7.Text = "Nome do Consumidor:";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(-1, 102);
+            label6.Name = "label6";
+            label6.Size = new Size(727, 15);
+            label6.TabIndex = 5;
+            label6.Text = "________________________________________________________________________________________________________________________________________________";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(345, 82);
+            label5.Name = "label5";
+            label5.Size = new Size(15, 17);
+            label5.TabIndex = 8;
+            label5.Text = "à";
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Location = new Point(393, 76);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(192, 23);
+            dateTimePicker2.TabIndex = 7;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(107, 76);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(200, 23);
+            dateTimePicker1.TabIndex = 6;
+            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(6, 66);
+            label4.Name = "label4";
+            label4.Size = new Size(51, 15);
+            label4.TabIndex = 5;
+            label4.Text = "Periodo:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(6, 19);
+            label2.Name = "label2";
+            label2.Size = new Size(84, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Tipo de Conta:";
             // 
             // radioButton3
             // 
@@ -124,116 +207,34 @@
             radioButton3.Text = "Comercial";
             radioButton3.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // radioButton2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(6, 19);
-            label2.Name = "label2";
-            label2.Size = new Size(84, 15);
-            label2.TabIndex = 3;
-            label2.Text = "Tipo de Conta:";
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(308, 29);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(84, 19);
+            radioButton2.TabIndex = 1;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Residencial";
+            radioButton2.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // radioButton1
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(-7, 51);
-            label3.Name = "label3";
-            label3.Size = new Size(727, 15);
-            label3.TabIndex = 4;
-            label3.Text = "________________________________________________________________________________________________________________________________________________";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(6, 66);
-            label4.Name = "label4";
-            label4.Size = new Size(51, 15);
-            label4.TabIndex = 5;
-            label4.Text = "Periodo:";
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(107, 76);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 6;
-            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
-            // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Location = new Point(393, 76);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(192, 23);
-            dateTimePicker2.TabIndex = 7;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(345, 82);
-            label5.Name = "label5";
-            label5.Size = new Size(15, 17);
-            label5.TabIndex = 8;
-            label5.Text = "à";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(-1, 102);
-            label6.Name = "label6";
-            label6.Size = new Size(727, 15);
-            label6.TabIndex = 5;
-            label6.Text = "________________________________________________________________________________________________________________________________________________";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(0, 117);
-            label7.Name = "label7";
-            label7.Size = new Size(129, 15);
-            label7.TabIndex = 9;
-            label7.Text = "Nome do Consumidor:";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(141, 120);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(166, 23);
-            textBox1.TabIndex = 10;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(-1, 146);
-            label8.Name = "label8";
-            label8.Size = new Size(727, 15);
-            label8.TabIndex = 11;
-            label8.Text = "________________________________________________________________________________________________________________________________________________";
-            // 
-            // btnGerarRelatorio
-            // 
-            btnGerarRelatorio.Location = new Point(200, 164);
-            btnGerarRelatorio.Name = "btnGerarRelatorio";
-            btnGerarRelatorio.Size = new Size(107, 23);
-            btnGerarRelatorio.TabIndex = 12;
-            btnGerarRelatorio.Text = "Gerar Relatório";
-            btnGerarRelatorio.UseVisualStyleBackColor = true;
-            // 
-            // btnLimparFiltro
-            // 
-            btnLimparFiltro.Location = new Point(393, 164);
-            btnLimparFiltro.Name = "btnLimparFiltro";
-            btnLimparFiltro.Size = new Size(107, 23);
-            btnLimparFiltro.TabIndex = 13;
-            btnLimparFiltro.Text = "Limpar Filtro";
-            btnLimparFiltro.UseVisualStyleBackColor = true;
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(120, 29);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(55, 19);
+            radioButton1.TabIndex = 0;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Todas";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
             // grpRelatorio
             // 
             grpRelatorio.Controls.Add(dataGridView1);
-            grpRelatorio.Location = new Point(49, 241);
+            grpRelatorio.Location = new Point(42, 241);
             grpRelatorio.Name = "grpRelatorio";
-            grpRelatorio.Size = new Size(726, 230);
+            grpRelatorio.Size = new Size(727, 156);
             grpRelatorio.TabIndex = 2;
             grpRelatorio.TabStop = false;
             grpRelatorio.Text = "Relatório";
@@ -245,12 +246,12 @@
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
-            dataGridView1.Location = new Point(6, 22);
+            dataGridView1.Location = new Point(6, 0);
             dataGridView1.MultiSelect = false;
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(714, 202);
+            dataGridView1.Size = new Size(714, 153);
             dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -283,15 +284,25 @@
             Column5.Name = "Column5";
             Column5.ReadOnly = true;
             // 
+            // btnVoltar_Relatorio
+            // 
+            btnVoltar_Relatorio.Location = new Point(674, 403);
+            btnVoltar_Relatorio.Name = "btnVoltar_Relatorio";
+            btnVoltar_Relatorio.Size = new Size(88, 30);
+            btnVoltar_Relatorio.TabIndex = 1;
+            btnVoltar_Relatorio.Text = "Voltar";
+            btnVoltar_Relatorio.UseVisualStyleBackColor = true;
+            // 
             // RelatorioControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnVoltar_Relatorio);
             Controls.Add(grpRelatorio);
             Controls.Add(grpFiltro);
             Controls.Add(label1);
             Name = "RelatorioControl";
-            Size = new Size(816, 489);
+            Size = new Size(800, 450);
             grpFiltro.ResumeLayout(false);
             grpFiltro.PerformLayout();
             grpRelatorio.ResumeLayout(false);
@@ -326,5 +337,6 @@
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
         private DataGridViewTextBoxColumn Column5;
+        private Button btnVoltar_Relatorio;
     }
 }

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3EA3293-5D56-470C-9759-B265C3219163}|ControleDeLuz.csproj|c:\\users\\smf19\\onedrive\\documentos\\faculdade igor\\poo\\controledeluz\\gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D3EA3293-5D56-470C-9759-B265C3219163}|ControleDeLuz.csproj|solutionrelative:gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D3EA3293-5D56-470C-9759-B265C3219163}|ControleDeLuz.csproj|c:\\users\\smf19\\onedrive\\documentos\\faculdade igor\\poo\\controledeluz\\telas_usercontrol\\tela menu principal\\menuprincipalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EA3293-5D56-470C-9759-B265C3219163}|ControleDeLuz.csproj|solutionrelative:telas_usercontrol\\tela menu principal\\menuprincipalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3EA3293-5D56-470C-9759-B265C3219163}|ControleDeLuz.csproj|c:\\users\\smf19\\onedrive\\documentos\\faculdade igor\\poo\\controledeluz\\telas_usercontrol\\tela cadastro de consumidor\\cadastrarconsumidorcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3EA3293-5D56-470C-9759-B265C3219163}|ControleDeLuz.csproj|solutionrelative:telas_usercontrol\\tela cadastro de consumidor\\cadastrarconsumidorcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EA3293-5D56-470C-9759-B265C3219163}|ControleDeLuz.csproj|c:\\users\\smf19\\onedrive\\documentos\\faculdade igor\\poo\\controledeluz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3EA3293-5D56-470C-9759-B265C3219163}|ControleDeLuz.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D3EA3293-5D56-470C-9759-B265C3219163}|ControleDeLuz.csproj|c:\\users\\smf19\\onedrive\\documentos\\faculdade igor\\poo\\controledeluz\\telas_usercontrol\\tela menu principal\\menuprincipalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3EA3293-5D56-470C-9759-B265C3219163}|ControleDeLuz.csproj|solutionrelative:telas_usercontrol\\tela menu principal\\menuprincipalcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,44 +37,28 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "gitignore.txt",
-              "DocumentMoniker": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\gitignore.txt",
-              "RelativeDocumentMoniker": "gitignore.txt",
-              "ToolTip": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\gitignore.txt",
-              "RelativeToolTip": "gitignore.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-20T21:29:10.672Z",
+              "Title": "MenuPrincipalControl.cs",
+              "DocumentMoniker": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\Telas_UserControl\\Tela Menu Principal\\MenuPrincipalControl.cs",
+              "RelativeDocumentMoniker": "Telas_UserControl\\Tela Menu Principal\\MenuPrincipalControl.cs",
+              "ToolTip": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\Telas_UserControl\\Tela Menu Principal\\MenuPrincipalControl.cs",
+              "RelativeToolTip": "Telas_UserControl\\Tela Menu Principal\\MenuPrincipalControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:57:56.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CadastrarConsumidorControl.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\Telas_UserControl\\Tela Cadastro de Consumidor\\CadastrarConsumidorControl.cs",
-              "RelativeDocumentMoniker": "Telas_UserControl\\Tela Cadastro de Consumidor\\CadastrarConsumidorControl.cs",
-              "ToolTip": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\Telas_UserControl\\Tela Cadastro de Consumidor\\CadastrarConsumidorControl.cs [Projeto]",
-              "RelativeToolTip": "Telas_UserControl\\Tela Cadastro de Consumidor\\CadastrarConsumidorControl.cs [Projeto]",
+              "Title": "MenuPrincipalControl.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\Telas_UserControl\\Tela Menu Principal\\MenuPrincipalControl.cs",
+              "RelativeDocumentMoniker": "Telas_UserControl\\Tela Menu Principal\\MenuPrincipalControl.cs",
+              "ToolTip": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\Telas_UserControl\\Tela Menu Principal\\MenuPrincipalControl.cs [Projeto]",
+              "RelativeToolTip": "Telas_UserControl\\Tela Menu Principal\\MenuPrincipalControl.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T21:21:06.57Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\smf19\\OneDrive\\Documentos\\Faculdade Igor\\POO\\ControleDeLuz\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T21:18:52.96Z",
+              "WhenOpened": "2025-06-21T14:41:06.026Z",
               "EditorCaption": " [Projeto]"
             }
           ]

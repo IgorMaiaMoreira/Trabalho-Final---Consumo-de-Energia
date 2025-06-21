@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ContaDeLuz.Telas_UserControl
 {
-    public partial class CadastrarConsumidorControl: UserControl
+    public partial class CadastrarConsumidorControl : UserControl
     {
         public CadastrarConsumidorControl()
         {
             InitializeComponent();
+        }
+
+        private void CadastrarConsumidorControl_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

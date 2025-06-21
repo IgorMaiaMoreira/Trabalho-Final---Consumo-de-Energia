@@ -52,7 +52,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(252, 42);
+            label1.Location = new Point(252, 25);
             label1.Name = "label1";
             label1.Size = new Size(284, 30);
             label1.TabIndex = 1;
@@ -61,7 +61,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(165, 112);
+            label2.Location = new Point(165, 91);
             label2.Name = "label2";
             label2.Size = new Size(63, 15);
             label2.TabIndex = 2;
@@ -69,14 +69,14 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(390, 109);
+            textBox1.Location = new Point(390, 87);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 3;
             // 
             // button1
             // 
-            button1.Location = new Point(496, 108);
+            button1.Location = new Point(496, 87);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 4;
@@ -86,7 +86,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(165, 175);
+            label3.Location = new Point(165, 140);
             label3.Name = "label3";
             label3.Size = new Size(119, 15);
             label3.TabIndex = 5;
@@ -95,7 +95,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(165, 212);
+            label4.Location = new Point(165, 184);
             label4.Name = "label4";
             label4.Size = new Size(89, 15);
             label4.TabIndex = 6;
@@ -104,7 +104,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(390, 175);
+            label5.Location = new Point(390, 140);
             label5.Name = "label5";
             label5.Size = new Size(46, 15);
             label5.TabIndex = 7;
@@ -113,7 +113,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(390, 212);
+            label6.Location = new Point(390, 184);
             label6.Name = "label6";
             label6.Size = new Size(36, 15);
             label6.TabIndex = 8;
@@ -122,9 +122,9 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(dvgContas);
-            groupBox1.Location = new Point(61, 251);
+            groupBox1.Location = new Point(54, 212);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(705, 165);
+            groupBox1.Size = new Size(705, 167);
             groupBox1.TabIndex = 9;
             groupBox1.TabStop = false;
             groupBox1.Text = "Contas Associadas";
@@ -169,7 +169,7 @@
             // 
             // btnVerDetalhes
             // 
-            btnVerDetalhes.Location = new Point(252, 422);
+            btnVerDetalhes.Location = new Point(252, 396);
             btnVerDetalhes.Name = "btnVerDetalhes";
             btnVerDetalhes.Size = new Size(95, 40);
             btnVerDetalhes.TabIndex = 10;
@@ -178,7 +178,7 @@
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(441, 422);
+            btnVoltar.Location = new Point(441, 396);
             btnVoltar.Name = "btnVoltar";
             btnVoltar.Size = new Size(95, 40);
             btnVoltar.TabIndex = 11;
@@ -201,7 +201,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "ConsultarControl";
-            Size = new Size(816, 489);
+            Size = new Size(800, 450);
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dvgContas).EndInit();
             ResumeLayout(false);

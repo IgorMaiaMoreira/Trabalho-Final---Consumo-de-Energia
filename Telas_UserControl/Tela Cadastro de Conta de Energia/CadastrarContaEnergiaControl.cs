@@ -21,5 +21,10 @@ namespace ContaDeLuz.Telas_UserControl
         {
 
         }
+
+        private void CadastrarContaEnergiaControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

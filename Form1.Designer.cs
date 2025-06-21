@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            panelPrincipal = new Panel();
+            SuspendLayout();
+            // 
+            // panelPrincipal
+            // 
+            panelPrincipal.Dock = DockStyle.Fill;
+            panelPrincipal.Location = new Point(0, 0);
+            panelPrincipal.Name = "panelPrincipal";
+            panelPrincipal.Size = new Size(800, 450);
+            panelPrincipal.TabIndex = 0;
+            panelPrincipal.Paint += panelPrincipal_Paint;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(panelPrincipal);
+            Name = "Form1";
+            Text = "Form1";
+            Load += Form1_Load;
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Panel panelPrincipal;
     }
 }

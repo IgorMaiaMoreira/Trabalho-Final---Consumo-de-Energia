@@ -47,6 +47,7 @@
             btnCadastrarConsumidor.TabIndex = 0;
             btnCadastrarConsumidor.Text = "Cadastrar Consumidor";
             btnCadastrarConsumidor.UseVisualStyleBackColor = true;
+            btnCadastrarConsumidor.Click += btnCadastrarConsumidor_Click;
             // 
             // btnCadastrarConta
             // 
@@ -56,6 +57,7 @@
             btnCadastrarConta.TabIndex = 1;
             btnCadastrarConta.Text = "Cadastrar Conta de Energia";
             btnCadastrarConta.UseVisualStyleBackColor = true;
+            btnCadastrarConta.Click += btnCadastrarConta_Click;
             // 
             // btnConsultar
             // 
@@ -65,6 +67,7 @@
             btnConsultar.TabIndex = 2;
             btnConsultar.Text = "Consultar Cliente ou Conta";
             btnConsultar.UseVisualStyleBackColor = true;
+            btnConsultar.Click += btnConsultar_Click;
             // 
             // BtnRelatorios
             // 
@@ -74,6 +77,7 @@
             BtnRelatorios.TabIndex = 3;
             BtnRelatorios.Text = "Relatórios";
             BtnRelatorios.UseVisualStyleBackColor = true;
+            BtnRelatorios.Click += BtnRelatorios_Click;
             // 
             // btnSalvar
             // 
@@ -101,7 +105,7 @@
             btnSair.TabIndex = 6;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = true;
-            btnSair.Click += button7_Click;
+            btnSair.Click += btnSair_Click;
             // 
             // label1
             // 
@@ -136,7 +140,8 @@
             Controls.Add(btnCadastrarConta);
             Controls.Add(btnCadastrarConsumidor);
             Name = "MenuPrincipalControl";
-            Size = new Size(816, 489);
+            Size = new Size(800, 450);
+            Load += MenuPrincipalControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }

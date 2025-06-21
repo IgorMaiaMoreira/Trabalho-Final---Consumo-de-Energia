@@ -265,7 +265,7 @@
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(221, 427);
+            btnCalcular.Location = new Point(226, 396);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(86, 39);
             btnCalcular.TabIndex = 12;
@@ -274,7 +274,7 @@
             // 
             // btnSalvar
             // 
-            btnSalvar.Location = new Point(351, 427);
+            btnSalvar.Location = new Point(351, 396);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(86, 39);
             btnSalvar.TabIndex = 13;
@@ -283,7 +283,7 @@
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(477, 427);
+            btnCancelar.Location = new Point(477, 396);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(86, 39);
             btnCancelar.TabIndex = 14;
@@ -319,7 +319,8 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "CadastrarContaEnergiaControl";
-            Size = new Size(816, 489);
+            Size = new Size(800, 450);
+            Load += CadastrarContaEnergiaControl_Load;
             grpDados.ResumeLayout(false);
             grpDados.PerformLayout();
             ResumeLayout(false);
