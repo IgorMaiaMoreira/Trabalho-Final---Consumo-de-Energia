@@ -52,7 +52,7 @@
             label13 = new Label();
             btnCalcular = new Button();
             btnSalvar = new Button();
-            btnCancelar = new Button();
+            btnCancelar_CadastrarConta = new Button();
             label4 = new Label();
             grpDados.SuspendLayout();
             SuspendLayout();
@@ -92,6 +92,7 @@
             btnBuscar.TabIndex = 3;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
             // 
             // label3
             // 
@@ -271,6 +272,7 @@
             btnCalcular.TabIndex = 12;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
             // 
             // btnSalvar
             // 
@@ -280,15 +282,17 @@
             btnSalvar.TabIndex = 13;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.Click += btnSalvar_Click;
             // 
-            // btnCancelar
+            // btnCancelar_CadastrarConta
             // 
-            btnCancelar.Location = new Point(477, 396);
-            btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(86, 39);
-            btnCancelar.TabIndex = 14;
-            btnCancelar.Text = "Cancelar";
-            btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar_CadastrarConta.Location = new Point(477, 396);
+            btnCancelar_CadastrarConta.Name = "btnCancelar_CadastrarConta";
+            btnCancelar_CadastrarConta.Size = new Size(86, 39);
+            btnCancelar_CadastrarConta.TabIndex = 14;
+            btnCancelar_CadastrarConta.Text = "Cancelar";
+            btnCancelar_CadastrarConta.UseVisualStyleBackColor = true;
+            btnCancelar_CadastrarConta.Click += btnCancelar_CadastrarConta_Click;
             // 
             // label4
             // 
@@ -304,7 +308,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(label4);
-            Controls.Add(btnCancelar);
+            Controls.Add(btnCancelar_CadastrarConta);
             Controls.Add(btnSalvar);
             Controls.Add(btnCalcular);
             Controls.Add(label13);
@@ -353,7 +357,7 @@
         private Label label13;
         private Button btnCalcular;
         private Button btnSalvar;
-        private Button btnCancelar;
+        private Button btnCancelar_CadastrarConta;
         private Label label4;
     }
 }

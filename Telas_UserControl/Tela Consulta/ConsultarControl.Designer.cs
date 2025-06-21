@@ -37,13 +37,13 @@
             label5 = new Label();
             label6 = new Label();
             groupBox1 = new GroupBox();
-            dvgContas = new DataGridView();
-            colInstalacao = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Consumo = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
             btnVerDetalhes = new Button();
-            btnVoltar = new Button();
+            btnVoltar_Consulta = new Button();
+            Column4 = new DataGridViewTextBoxColumn();
+            Consumo = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            colInstalacao = new DataGridViewTextBoxColumn();
+            dvgContas = new DataGridView();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dvgContas).BeginInit();
             SuspendLayout();
@@ -129,6 +129,49 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Contas Associadas";
             // 
+            // btnVerDetalhes
+            // 
+            btnVerDetalhes.Location = new Point(252, 396);
+            btnVerDetalhes.Name = "btnVerDetalhes";
+            btnVerDetalhes.Size = new Size(95, 40);
+            btnVerDetalhes.TabIndex = 10;
+            btnVerDetalhes.Text = "Ver Detalhes";
+            btnVerDetalhes.UseVisualStyleBackColor = true;
+            // 
+            // btnVoltar_Consulta
+            // 
+            btnVoltar_Consulta.Location = new Point(441, 396);
+            btnVoltar_Consulta.Name = "btnVoltar_Consulta";
+            btnVoltar_Consulta.Size = new Size(95, 40);
+            btnVoltar_Consulta.TabIndex = 11;
+            btnVoltar_Consulta.Text = "Voltar";
+            btnVoltar_Consulta.UseVisualStyleBackColor = true;
+            btnVoltar_Consulta.Click += btnVoltar_Click;
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Valor Total";
+            Column4.Name = "Column4";
+            Column4.ReadOnly = true;
+            // 
+            // Consumo
+            // 
+            Consumo.HeaderText = "Consumo";
+            Consumo.Name = "Consumo";
+            Consumo.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Tipo";
+            Column2.Name = "Column2";
+            Column2.ReadOnly = true;
+            // 
+            // colInstalacao
+            // 
+            colInstalacao.HeaderText = "Nº da Instalação";
+            colInstalacao.Name = "colInstalacao";
+            colInstalacao.ReadOnly = true;
+            // 
             // dvgContas
             // 
             dvgContas.AllowUserToAddRows = false;
@@ -142,54 +185,13 @@
             dvgContas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dvgContas.Size = new Size(476, 127);
             dvgContas.TabIndex = 0;
-            // 
-            // colInstalacao
-            // 
-            colInstalacao.HeaderText = "Nº da Instalação";
-            colInstalacao.Name = "colInstalacao";
-            colInstalacao.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Tipo";
-            Column2.Name = "Column2";
-            Column2.ReadOnly = true;
-            // 
-            // Consumo
-            // 
-            Consumo.HeaderText = "Consumo";
-            Consumo.Name = "Consumo";
-            Consumo.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "Valor Total";
-            Column4.Name = "Column4";
-            Column4.ReadOnly = true;
-            // 
-            // btnVerDetalhes
-            // 
-            btnVerDetalhes.Location = new Point(252, 396);
-            btnVerDetalhes.Name = "btnVerDetalhes";
-            btnVerDetalhes.Size = new Size(95, 40);
-            btnVerDetalhes.TabIndex = 10;
-            btnVerDetalhes.Text = "Ver Detalhes";
-            btnVerDetalhes.UseVisualStyleBackColor = true;
-            // 
-            // btnVoltar
-            // 
-            btnVoltar.Location = new Point(441, 396);
-            btnVoltar.Name = "btnVoltar";
-            btnVoltar.Size = new Size(95, 40);
-            btnVoltar.TabIndex = 11;
-            btnVoltar.Text = "Voltar";
-            btnVoltar.UseVisualStyleBackColor = true;
+            dvgContas.CellContentClick += dvgContas_CellContentClick;
             // 
             // ConsultarControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(btnVoltar);
+            Controls.Add(btnVoltar_Consulta);
             Controls.Add(btnVerDetalhes);
             Controls.Add(groupBox1);
             Controls.Add(label6);
@@ -219,12 +221,12 @@
         private Label label5;
         private Label label6;
         private GroupBox groupBox1;
+        private Button btnVerDetalhes;
+        private Button btnVoltar_Consulta;
         private DataGridView dvgContas;
         private DataGridViewTextBoxColumn colInstalacao;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Consumo;
         private DataGridViewTextBoxColumn Column4;
-        private Button btnVerDetalhes;
-        private Button btnVoltar;
     }
 }

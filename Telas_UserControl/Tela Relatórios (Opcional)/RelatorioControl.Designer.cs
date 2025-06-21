@@ -292,6 +292,7 @@
             btnVoltar_Relatorio.TabIndex = 1;
             btnVoltar_Relatorio.Text = "Voltar";
             btnVoltar_Relatorio.UseVisualStyleBackColor = true;
+            btnVoltar_Relatorio.Click += btnVoltar_Relatorio_Click;
             // 
             // RelatorioControl
             // 
@@ -303,6 +304,7 @@
             Controls.Add(label1);
             Name = "RelatorioControl";
             Size = new Size(800, 450);
+            Load += RelatorioControl_Load;
             grpFiltro.ResumeLayout(false);
             grpFiltro.PerformLayout();
             grpRelatorio.ResumeLayout(false);

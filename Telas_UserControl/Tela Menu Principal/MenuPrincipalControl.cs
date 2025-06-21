@@ -2,6 +2,8 @@
 using ControleDeLuz;
 using System;
 using System.Windows.Forms;
+
+
 // MenuPrincipalControl.cs
 namespace ContaDeLuz.Telas_UserControl
 {
@@ -23,28 +25,29 @@ namespace ContaDeLuz.Telas_UserControl
 
         private void btnSair_Click(object sender, EventArgs e)
         {
+            Application.Exit();
 
         }
 
         // EVENTO DE CLICKS PARA TROCAR AS TELAS EM MENU INICIAL
         private void btnCadastrarConsumidor_Click(object sender, EventArgs e)
         {
-            formPrincipal.TrocarTela(new CadastrarConsumidorControl());
+            formPrincipal.TrocarTela(new CadastrarConsumidorControl(formPrincipal));
         }
 
         private void btnCadastrarConta_Click(object sender, EventArgs e)
         {
-            formPrincipal.TrocarTela(new CadastrarContaEnergiaControl());
+            formPrincipal.TrocarTela(new CadastrarContaEnergiaControl(formPrincipal));
         }
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            formPrincipal.TrocarTela(new ConsultarControl());
+            formPrincipal.TrocarTela(new ConsultarControl(formPrincipal));
         }
 
         private void BtnRelatorios_Click(object sender, EventArgs e)
         {
-            formPrincipal.TrocarTela(new RelatorioControl());
+            formPrincipal.TrocarTela(new RelatorioControl(formPrincipal));
         }
     }
 }

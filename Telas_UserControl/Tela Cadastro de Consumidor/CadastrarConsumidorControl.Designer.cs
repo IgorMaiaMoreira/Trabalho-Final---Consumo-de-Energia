@@ -37,7 +37,7 @@
             label2 = new Label();
             label3 = new Label();
             btnSalvarConsumidor = new Button();
-            btnCancelar = new Button();
+            btnCancelar_CadastroConsumidor = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -129,20 +129,21 @@
             btnSalvarConsumidor.Text = "Salvar";
             btnSalvarConsumidor.UseVisualStyleBackColor = true;
             // 
-            // btnCancelar
+            // btnCancelar_CadastroConsumidor
             // 
-            btnCancelar.Location = new Point(420, 399);
-            btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(83, 39);
-            btnCancelar.TabIndex = 7;
-            btnCancelar.Text = "Cancelar";
-            btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar_CadastroConsumidor.Location = new Point(420, 399);
+            btnCancelar_CadastroConsumidor.Name = "btnCancelar_CadastroConsumidor";
+            btnCancelar_CadastroConsumidor.Size = new Size(83, 39);
+            btnCancelar_CadastroConsumidor.TabIndex = 7;
+            btnCancelar_CadastroConsumidor.Text = "Cancelar";
+            btnCancelar_CadastroConsumidor.UseVisualStyleBackColor = true;
+            btnCancelar_CadastroConsumidor.Click += btnCancelar_CadastroConsumidor_Click;
             // 
             // CadastrarConsumidorControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(btnCancelar);
+            Controls.Add(btnCancelar_CadastroConsumidor);
             Controls.Add(btnSalvarConsumidor);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -170,6 +171,6 @@
         private Label label2;
         private Label label3;
         private Button btnSalvarConsumidor;
-        private Button btnCancelar;
+        private Button btnCancelar_CadastroConsumidor;
     }
 }
