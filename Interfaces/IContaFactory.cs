@@ -1,3 +1,7 @@
-public interface IContaFactory{
-    Conta CriarConta(string tipoConta, int numeroInstalacao, Consumidor titular);
+namespace ControleDeLuz
+{
+    public interface IContaFactory
+    {
+        IConta CriarConta(string tipoConta, int numeroInstalacao, Consumidor titular);
+    }
 }

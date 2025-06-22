@@ -1,3 +1,4 @@
+namespace ControleDeLuz;
 public class PessoaFisica : Consumidor
 {
     public string CPF { get; set; }

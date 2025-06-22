@@ -1,26 +1,26 @@
-public abstract class Conta
+
+namespace ControleDeLuz
 {
-    public int NumeroInstalacao { get; set; }
-    public double LeituraMesAnterior { get; set; }
-    public double LeituraMesAtual { get; set; }
-    public Consumidor Titular { get; set; } // Associação com a classe Cliente
-    
-    public const double ILUMINACAO_PUBLICA = 9.25;
-
-    // Construtor
-    public Conta(int numeroInstalacao, Consumidor titular)
+    public abstract class ContaBase : IConta
     {
-        NumeroInstalacao = numeroInstalacao;
-        Titular = titular;
-    }
+        public int NumeroInstalacao { get; set; }
+        public double LeituraMesAnterior { get; set; }
+        public double LeituraMesAtual { get; set; }
+        public Consumidor Titular { get; set; }
 
-    // Método para calcular o consumo, comum a todos os tipos de conta
-    public virtual double CalcularConsumoKwh()
-    {
-        return LeituraMesAtual - LeituraMesAnterior;
-    }
+        protected ContaBase(int numeroInstalacao, Consumidor titular)
+        {
+            this.NumeroInstalacao = numeroInstalacao;
+            this.Titular = titular;
+        }
 
-    // Métodos abstratos que serão implementados pelas classes filhas
-    public abstract double CalcularValorTotal();
-    public abstract double CalcularValorSemImpostos();
+        public virtual double CalcularConsumoKwh()
+        {
+            return LeituraMesAtual - LeituraMesAnterior;
+        }
+
+        // Força as classes filhas a implementarem seus próprios cálculos.
+        public abstract double CalcularValorTotal();
+        public abstract double CalcularValorSemImpostos();
+    }
 }

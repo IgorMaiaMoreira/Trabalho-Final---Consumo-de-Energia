@@ -1,15 +1,21 @@
-public class ContaFactory : IContaFactory
+using System;
+
+namespace ControleDeLuz
 {
-    public Conta CriarConta(string tipoConta, int numeroInstalacao, Consumidor titular)
+    public class ContaFactory : IContaFactory
     {
-        switch (tipoConta.ToLower())
+        public IConta CriarConta(string tipoConta, int numeroInstalacao, Consumidor titular)
         {
-            case "residencial":
-                return new ContaResidencial(numeroInstalacao, titular);
-            case "comercial":
-                return new ContaComercial(numeroInstalacao, titular);
-            default:
-                throw new ArgumentException("Tipo de conta inválido.", nameof(tipoConta));
+            switch (tipoConta.ToLower())
+            {
+                case "residencial":
+                    return new ContaResidencial(numeroInstalacao, titular);
+                case "comercial":
+                    return new ContaComercial(numeroInstalacao, titular);
+                default:
+                    // Lança uma exceção se um tipo desconhecido for passado.
+                    throw new ArgumentException("Tipo de conta inválido fornecido.", nameof(tipoConta));
+            }
         }
     }
 }

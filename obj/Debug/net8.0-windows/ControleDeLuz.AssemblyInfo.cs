@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControleDeLuz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6263dd076d4d8453eed3a9ee96e90eb8447be0f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7ad32dfd3460d301d7244593b46b28bf813fdd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControleDeLuz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControleDeLuz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

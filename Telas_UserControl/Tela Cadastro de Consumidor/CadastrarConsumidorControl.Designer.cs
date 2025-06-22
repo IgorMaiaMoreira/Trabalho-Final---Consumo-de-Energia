@@ -28,149 +28,148 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            groupBox1 = new GroupBox();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
-            textBox1 = new TextBox();
-            maskedTextBox1 = new MaskedTextBox();
-            label2 = new Label();
-            label3 = new Label();
-            btnSalvarConsumidor = new Button();
-            btnCancelar_CadastroConsumidor = new Button();
-            groupBox1.SuspendLayout();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnSalvarConsumidor = new System.Windows.Forms.Button();
+            this.btnCancelar_CadastroConsumidor = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(284, 58);
-            label1.Name = "label1";
-            label1.Size = new Size(219, 30);
-            label1.TabIndex = 0;
-            label1.Text = "Cadastrar Consumidor";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(284, 58);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(219, 30);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Cadastrar Consumidor";
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(radioButton2);
-            groupBox1.Controls.Add(radioButton1);
-            groupBox1.Location = new Point(0, 145);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(816, 124);
-            groupBox1.TabIndex = 1;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Tipo de Consumidor:";
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Location = new System.Drawing.Point(0, 145);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(816, 124);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Tipo de Consumidor:";
             // 
             // radioButton2
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton2.Location = new Point(475, 51);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(132, 25);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Pessoa Jurídica";
-            radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(475, 51);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(132, 25);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Pessoa Jurídica";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton1.Location = new Point(200, 51);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(117, 25);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Pessoa Física";
-            radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(200, 51);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(117, 25);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Pessoa Física";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(375, 301);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(232, 23);
-            textBox1.TabIndex = 2;
+            this.textBox1.Location = new System.Drawing.Point(375, 301);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(232, 23);
+            this.textBox1.TabIndex = 2;
             // 
             // maskedTextBox1
             // 
-            maskedTextBox1.Location = new Point(375, 345);
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(232, 23);
-            maskedTextBox1.TabIndex = 3;
+            this.maskedTextBox1.Location = new System.Drawing.Point(375, 345);
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(232, 23);
+            this.maskedTextBox1.TabIndex = 3;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(200, 302);
-            label2.Name = "label2";
-            label2.Size = new Size(134, 17);
-            label2.TabIndex = 4;
-            label2.Text = "Nome / Razão Social:";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(200, 302);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(134, 17);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Nome / Razão Social:";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(200, 346);
-            label3.Name = "label3";
-            label3.Size = new Size(74, 17);
-            label3.TabIndex = 5;
-            label3.Text = "CPF / CNPJ:";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(200, 346);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 17);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "CPF / CNPJ:";
             // 
             // btnSalvarConsumidor
             // 
-            btnSalvarConsumidor.Location = new Point(284, 399);
-            btnSalvarConsumidor.Name = "btnSalvarConsumidor";
-            btnSalvarConsumidor.Size = new Size(84, 39);
-            btnSalvarConsumidor.TabIndex = 6;
-            btnSalvarConsumidor.Text = "Salvar";
-            btnSalvarConsumidor.UseVisualStyleBackColor = true;
+            this.btnSalvarConsumidor.Location = new System.Drawing.Point(284, 420); // Ajuste de posição
+            this.btnSalvarConsumidor.Name = "btnSalvarConsumidor";
+            this.btnSalvarConsumidor.Size = new System.Drawing.Size(84, 39);
+            this.btnSalvarConsumidor.TabIndex = 6;
+            this.btnSalvarConsumidor.Text = "Salvar";
+            this.btnSalvarConsumidor.UseVisualStyleBackColor = true;
             // 
             // btnCancelar_CadastroConsumidor
             // 
-            btnCancelar_CadastroConsumidor.Location = new Point(420, 399);
-            btnCancelar_CadastroConsumidor.Name = "btnCancelar_CadastroConsumidor";
-            btnCancelar_CadastroConsumidor.Size = new Size(83, 39);
-            btnCancelar_CadastroConsumidor.TabIndex = 7;
-            btnCancelar_CadastroConsumidor.Text = "Cancelar";
-            btnCancelar_CadastroConsumidor.UseVisualStyleBackColor = true;
-            btnCancelar_CadastroConsumidor.Click += btnCancelar_CadastroConsumidor_Click;
+            this.btnCancelar_CadastroConsumidor.Location = new System.Drawing.Point(420, 420); // Ajuste de posição
+            this.btnCancelar_CadastroConsumidor.Name = "btnCancelar_CadastroConsumidor";
+            this.btnCancelar_CadastroConsumidor.Size = new System.Drawing.Size(83, 39);
+            this.btnCancelar_CadastroConsumidor.TabIndex = 7;
+            this.btnCancelar_CadastroConsumidor.Text = "Cancelar";
+            this.btnCancelar_CadastroConsumidor.UseVisualStyleBackColor = true;
             // 
             // CadastrarConsumidorControl
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(btnCancelar_CadastroConsumidor);
-            Controls.Add(btnSalvarConsumidor);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(maskedTextBox1);
-            Controls.Add(textBox1);
-            Controls.Add(groupBox1);
-            Controls.Add(label1);
-            Name = "CadastrarConsumidorControl";
-            Size = new Size(800, 450);
-            Load += CadastrarConsumidorControl_Load;
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnCancelar_CadastroConsumidor);
+            this.Controls.Add(this.btnSalvarConsumidor);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label1);
+            this.Name = "CadastrarConsumidorControl";
+            this.Size = new System.Drawing.Size(800, 500); // Ajuste de tamanho
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private GroupBox groupBox1;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
-        private TextBox textBox1;
-        private MaskedTextBox maskedTextBox1;
-        private Label label2;
-        private Label label3;
-        private Button btnSalvarConsumidor;
-        private Button btnCancelar_CadastroConsumidor;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnSalvarConsumidor;
+        private System.Windows.Forms.Button btnCancelar_CadastroConsumidor;
+        // A declaração do textBoxNumeroInstalacao e seu label é feita no arquivo .cs
     }
 }

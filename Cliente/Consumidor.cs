@@ -1,9 +1,10 @@
-// Classe base abstrata
-public abstract class Consumidor
+namespace ControleDeLuz
 {
-    public int Id { get; set; } // Chave primária para o banco de dados
-    public string Nome { get; set; }
-    
-    // Propriedade abstrata para garantir que toda especialização tenha um documento
-    public abstract string ObterDocumento();
+    public abstract class Consumidor
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public int NumeroInstalacao { get; set; } // <-- ADICIONE ESTA LINHA
+        public abstract string ObterDocumento();
+    }
 }
