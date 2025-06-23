@@ -37,7 +37,6 @@
             label5 = new Label();
             label6 = new Label();
             groupBox1 = new GroupBox();
-            btnVerDetalhes = new Button();
             btnVoltar_Consulta = new Button();
             Column4 = new DataGridViewTextBoxColumn();
             Consumo = new DataGridViewTextBoxColumn();
@@ -82,6 +81,7 @@
             button1.TabIndex = 4;
             button1.Text = " 🔍 Buscar ";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += btnBuscar_Click;
             // 
             // label3
             // 
@@ -129,15 +129,6 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Contas Associadas";
             // 
-            // btnVerDetalhes
-            // 
-            btnVerDetalhes.Location = new Point(252, 396);
-            btnVerDetalhes.Name = "btnVerDetalhes";
-            btnVerDetalhes.Size = new Size(95, 40);
-            btnVerDetalhes.TabIndex = 10;
-            btnVerDetalhes.Text = "Ver Detalhes";
-            btnVerDetalhes.UseVisualStyleBackColor = true;
-            // 
             // btnVoltar_Consulta
             // 
             btnVoltar_Consulta.Location = new Point(441, 396);
@@ -153,36 +144,41 @@
             Column4.HeaderText = "Valor Total";
             Column4.Name = "Column4";
             Column4.ReadOnly = true;
+            Column4.DataPropertyName = "Valor Total";
             // 
             // Consumo
             // 
             Consumo.HeaderText = "Consumo";
             Consumo.Name = "Consumo";
             Consumo.ReadOnly = true;
+            Consumo.DataPropertyName = "Consumo";
             // 
             // Column2
             // 
             Column2.HeaderText = "Tipo";
             Column2.Name = "Column2";
             Column2.ReadOnly = true;
+            Column2.DataPropertyName = "Tipo";
             // 
             // colInstalacao
             // 
             colInstalacao.HeaderText = "Nº da Instalação";
             colInstalacao.Name = "colInstalacao";
             colInstalacao.ReadOnly = true;
+            colInstalacao.DataPropertyName = "Nº da Instalação";
             // 
             // dvgContas
             // 
             dvgContas.AllowUserToAddRows = false;
             dvgContas.AllowUserToDeleteRows = false;
+            dvgContas.AutoGenerateColumns = false; 
             dvgContas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dvgContas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dvgContas.Columns.AddRange(new DataGridViewColumn[] { colInstalacao, Column2, Consumo, Column4 });
             dvgContas.Location = new Point(104, 22);
             dvgContas.Name = "dvgContas";
             dvgContas.ReadOnly = true;
-            dvgContas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dvgContas.SelectionMode = DataGridViewSelectionMode.CellSelect;
             dvgContas.Size = new Size(476, 127);
             dvgContas.TabIndex = 0;
             dvgContas.CellContentClick += dvgContas_CellContentClick;
@@ -192,7 +188,6 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(btnVoltar_Consulta);
-            Controls.Add(btnVerDetalhes);
             Controls.Add(groupBox1);
             Controls.Add(label6);
             Controls.Add(label5);

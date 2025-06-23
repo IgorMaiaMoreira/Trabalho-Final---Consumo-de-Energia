@@ -8,10 +8,12 @@ namespace ControleDeLuz
         public double LeituraMesAtual { get; set; }
         public Consumidor Titular { get; set; }
 
-        protected ContaBase(int numeroInstalacao, Consumidor titular)
+        protected ContaBase(int numeroInstalacao, Consumidor titular, double leituraMesAnterior, double leituraMesAtual)
         {
             this.NumeroInstalacao = numeroInstalacao;
             this.Titular = titular;
+            this.LeituraMesAnterior = leituraMesAnterior;
+            this.LeituraMesAtual = leituraMesAtual;
         }
 
         public virtual double CalcularConsumoKwh()

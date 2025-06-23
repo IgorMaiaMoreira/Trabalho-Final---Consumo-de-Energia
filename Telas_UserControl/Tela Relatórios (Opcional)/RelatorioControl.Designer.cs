@@ -36,11 +36,6 @@
             label8 = new Label();
             textBox1 = new TextBox();
             label7 = new Label();
-            label6 = new Label();
-            label5 = new Label();
-            dateTimePicker2 = new DateTimePicker();
-            dateTimePicker1 = new DateTimePicker();
-            label4 = new Label();
             label2 = new Label();
             radioButton3 = new RadioButton();
             radioButton2 = new RadioButton();
@@ -76,11 +71,6 @@
             grpFiltro.Controls.Add(label8);
             grpFiltro.Controls.Add(textBox1);
             grpFiltro.Controls.Add(label7);
-            grpFiltro.Controls.Add(label6);
-            grpFiltro.Controls.Add(label5);
-            grpFiltro.Controls.Add(dateTimePicker2);
-            grpFiltro.Controls.Add(dateTimePicker1);
-            grpFiltro.Controls.Add(label4);
             grpFiltro.Controls.Add(label2);
             grpFiltro.Controls.Add(radioButton3);
             grpFiltro.Controls.Add(radioButton2);
@@ -143,49 +133,6 @@
             label7.Size = new Size(129, 15);
             label7.TabIndex = 9;
             label7.Text = "Nome do Consumidor:";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(-1, 102);
-            label6.Name = "label6";
-            label6.Size = new Size(727, 15);
-            label6.TabIndex = 5;
-            label6.Text = "________________________________________________________________________________________________________________________________________________";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(345, 82);
-            label5.Name = "label5";
-            label5.Size = new Size(15, 17);
-            label5.TabIndex = 8;
-            label5.Text = "à";
-            // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Location = new Point(393, 76);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(192, 23);
-            dateTimePicker2.TabIndex = 7;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(107, 76);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 6;
-            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(6, 66);
-            label4.Name = "label4";
-            label4.Size = new Size(51, 15);
-            label4.TabIndex = 5;
-            label4.Text = "Periodo:";
             // 
             // label2
             // 

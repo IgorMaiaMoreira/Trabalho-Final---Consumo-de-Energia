@@ -4,7 +4,7 @@ namespace ControleDeLuz
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public int NumeroInstalacao { get; set; } // <-- ADICIONE ESTA LINHA
+        public int NumeroInstalacao { get; set; }
         public abstract string ObterDocumento();
     }
 }

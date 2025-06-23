@@ -118,7 +118,7 @@ namespace ContaDeLuz.Telas_UserControl
 
             string tipoConta = radioButton1.Checked ? "residencial" : "comercial";
             
-            _contaAtual = _contaFactory.CriarConta(tipoConta, _consumidorAtual.NumeroInstalacao, _consumidorAtual);
+            _contaAtual = _contaFactory.CriarConta(tipoConta, _consumidorAtual.NumeroInstalacao, leituraAnterior, leituraAtual, _consumidorAtual);
             
             _contaAtual.LeituraMesAnterior = leituraAnterior;
             _contaAtual.LeituraMesAtual = leituraAtual;

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cliente\\OneDrive\\Área de Trabalho\\POO - Contas de luz\\Trabalho-Final---Consumo-de-Energia\\ControleDeLuz.csproj": {}
+    "C:\\Users\\Schinas\\Desktop\\PUC\\3° Período\\POO\\ContaEletrica\\Trabalho-Final---Consumo-de-Energia\\ControleDeLuz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cliente\\OneDrive\\Área de Trabalho\\POO - Contas de luz\\Trabalho-Final---Consumo-de-Energia\\ControleDeLuz.csproj": {
+    "C:\\Users\\Schinas\\Desktop\\PUC\\3° Período\\POO\\ContaEletrica\\Trabalho-Final---Consumo-de-Energia\\ControleDeLuz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cliente\\OneDrive\\Área de Trabalho\\POO - Contas de luz\\Trabalho-Final---Consumo-de-Energia\\ControleDeLuz.csproj",
+        "projectUniqueName": "C:\\Users\\Schinas\\Desktop\\PUC\\3° Período\\POO\\ContaEletrica\\Trabalho-Final---Consumo-de-Energia\\ControleDeLuz.csproj",
         "projectName": "ControleDeLuz",
-        "projectPath": "C:\\Users\\Cliente\\OneDrive\\Área de Trabalho\\POO - Contas de luz\\Trabalho-Final---Consumo-de-Energia\\ControleDeLuz.csproj",
-        "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cliente\\OneDrive\\Área de Trabalho\\POO - Contas de luz\\Trabalho-Final---Consumo-de-Energia\\obj\\",
+        "projectPath": "C:\\Users\\Schinas\\Desktop\\PUC\\3° Período\\POO\\ContaEletrica\\Trabalho-Final---Consumo-de-Energia\\ControleDeLuz.csproj",
+        "packagesPath": "C:\\Users\\Schinas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Schinas\\Desktop\\PUC\\3° Período\\POO\\ContaEletrica\\Trabalho-Final---Consumo-de-Energia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Schinas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
